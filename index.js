@@ -8,7 +8,7 @@ const app = express()
 
 const MongoClient = require('mongodb').MongoClient;
 
-const uri = `mongodb+srv://${process.env.userName}:${process.env.password}@cluster0.ieei5.mongodb.net/${process.env.DBName}?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://Akash_Hossain:akash044@cluster0.ieei5.mongodb.net/foodDB?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 
